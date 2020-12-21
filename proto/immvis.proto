@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service ImmVisJupyter {
+    rpc PlotDataset(DatasetToPlot) returns (Empty) {}
+}
+
+message Empty {}
+
+message DatasetToPlot {
+    repeated DatasetRow rows = 1;
+}
+
+message DatasetRow {
+    repeated float rowValues = 1;
+}

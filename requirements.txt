@@ -1,0 +1,8 @@
+wheel
+protobuf
+grpcio==1.26.0
+grpcio-tools==1.26.0
+pandas
+sklearn
+numpy==1.19.3
+jupyter
